@@ -41,6 +41,8 @@ header {
     background-image: url(5594016.jpg);
     background-attachment: fixed;
     height: 100vh;
+    border-bottom-style: solid;
+
 }
 
 nav {
@@ -97,6 +99,7 @@ header p {
 }
 
 .aboutus {
+
     height: 100vh;
     width: 75%;
     margin: auto;
