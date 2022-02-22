@@ -98,13 +98,13 @@ header p {
 }
 
 .acful{
-        background: linear-gradient(45deg,white, rgb(189, 189, 189));
+        background: linear-gradient(45deg,#2e01f8, #40c239);
 
 }
 
 .aboutus {
     height: 100vh;
-    width: 75%;
+    width: 100%;
     margin: auto;
 }
 
@@ -112,10 +112,14 @@ header p {
     text-align: center;
     padding-top: 25px;
     font-size: 75px;
-    color: #2e01f8;
+    color: white;
     text-shadow: 2px 2px 7px #797979;
 
 
+}
+
+.aboutus p{
+    color: white;
 }
 
 .ac {
@@ -126,10 +130,13 @@ header p {
 .left {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: first baseline;
     width: 50%;
 }
 
+.left img{
+    height: 100%;
+}
 
 
 
