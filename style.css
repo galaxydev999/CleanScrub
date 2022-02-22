@@ -97,8 +97,8 @@ header p {
 
 }
 
-.acful{
-        background: linear-gradient(45deg,#2e01f8, #40c239);
+.acful {
+    background: linear-gradient(45deg, #2e01f8, #40c239);
 
 }
 
@@ -118,7 +118,7 @@ header p {
 
 }
 
-.aboutus p{
+.aboutus p {
     color: white;
 }
 
@@ -134,7 +134,7 @@ header p {
     width: 50%;
 }
 
-.left img{
+.left img {
     height: 100%;
 }
 
@@ -159,22 +159,39 @@ header p {
     width: 70%;
 }
 
-.services{
-    height: 100vh;
+.services {
+    height: 40vh;
     background-image: url(5594016.jpg);
     background-attachment: fixed;
 }
 
-.box{
+.servicesinner{
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box {
     width: 300px;
     height: 300px;
     border-radius: 20px;
-    border: solid black 5px;
+    border-width: 6px;
+    border-style: solid;
+    background:  linear-gradient(white, white) padding-box,
+    linear-gradient(to bottom, #40c239, #2e01f8) border-box;
+    border-color: transparent;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 15px;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+.box:hover{
+    border-radius: 0px;
 }
 
 .box h1 {
