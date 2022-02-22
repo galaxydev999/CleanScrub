@@ -158,3 +158,27 @@ header p {
 .right p {
     width: 70%;
 }
+
+.services{
+    height: 100vh;
+    background-image: url(5594016.jpg);
+    background-attachment: fixed;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: solid black 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.box h1 {
+    background: -webkit-linear-gradient(#40c239, #2e01f8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
