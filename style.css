@@ -52,7 +52,15 @@ nav {
     justify-content: space-around;
     align-items: center;
     text-shadow: 2px 2px 7px #b1b1b1;
+}
 
+nav a{
+      transition: ease-in .5s;
+
+}
+
+nav a:hover{
+  color: #2e01f8;
 }
 
 nav img {
@@ -219,7 +227,7 @@ form {
 input,
 textarea {
     resize: none;
-    width: 30%;
+    width: 40%;
     height: 70px;
     padding: 10px;
     border-radius: 3px;
