@@ -165,7 +165,7 @@ header p {
     background-attachment: fixed;
 }
 
-.servicesinner{
+.servicesinner {
     display: flex;
     height: 100%;
     justify-content: space-evenly;
@@ -173,13 +173,13 @@ header p {
 }
 
 .box {
-    width: 300px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
     border-radius: 20px;
     border-width: 6px;
     border-style: solid;
-    background:  linear-gradient(white, white) padding-box,
-    linear-gradient(to bottom, #40c239, #2e01f8) border-box;
+    background: linear-gradient(white, white) padding-box,
+        linear-gradient(to bottom, #40c239, #2e01f8) border-box;
     border-color: transparent;
     text-align: center;
     display: flex;
@@ -190,7 +190,7 @@ header p {
     cursor: pointer;
 }
 
-.box:hover{
+.box:hover {
     border-radius: 0px;
 }
 
@@ -198,4 +198,32 @@ header p {
     background: -webkit-linear-gradient(#40c239, #2e01f8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.contact {
+    background: linear-gradient(45deg, #2e01f8, #40c239);
+    height: 100vh;
+}
+
+input, textarea{
+    resize: none;
+    width: 25%;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 3px;
+    box-shadow: 0px 10px 50px black;
+    border-style: solid;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to bottom, #40c239, #2e01f8) border-box;
+    border-color: transparent;
+}
+
+textarea{
+    height: ;
+}
+
+label{
+    display: none;
+    font-size: 0px;
+
 }
