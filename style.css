@@ -205,24 +205,47 @@ header p {
     height: 100vh;
 }
 
-input, textarea{
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+input,
+textarea {
     resize: none;
-    width: 25%;
-    height: 40px;
-    border-radius: 5px;
-    border-width: 3px;
-    box-shadow: 0px 10px 50px black;
+    width: 30%;
+    height: 70px;
+    padding: 10px;
+    border-radius: 3px;
+    border-width: 5px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.342);
     border-style: solid;
     background: linear-gradient(white, white) padding-box,
-    linear-gradient(to bottom, #40c239, #2e01f8) border-box;
+        linear-gradient(to bottom, #39c267, #0181f8) border-box;
     border-color: transparent;
 }
 
-textarea{
-    height: ;
+form h1 {
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 25px;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 7px #797979;
+
 }
 
-label{
+textarea {
+    height: 400px;
+}
+
+label {
     display: none;
     font-size: 0px;
 
