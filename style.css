@@ -265,3 +265,9 @@ label {
     font-size: 0px;
 
 }
+
+footer{
+  background: black;
+  color: white;
+  text-align:center;
+}
