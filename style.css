@@ -189,18 +189,19 @@ header p {
 .box {
     width: 270px;
     height: 270px;
-    border-radius: 20px;
+    border-radius: 50%;
     border-width: 6px;
     border-style: solid;
     background: linear-gradient(white, white) padding-box,
-        linear-gradient(to bottom, #40c239, #2e01f8) border-box;
+    linear-gradient(to bottom, #40c239, #2e01f8) border-box;
     border-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.315) 0px 2px 10px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 15px;
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 1s;
     cursor: pointer;
 }
 
