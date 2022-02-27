@@ -39,11 +39,17 @@ img {
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+body{
+        text-align: center;
+
+}
+
 header {
     background-image: url(5594016.jpg);
     background-size: cover;
     background-attachment: fixed;
     height: 120vh;
+
 
 }
 
@@ -463,6 +469,20 @@ li {
 
     textarea{
         height: 400px;
+    }
+
+    .ServiceBox{
+        width: 100%;
+
+    }
+
+    .ServiceBox h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .sbi{
+        width: 90%;
     }
 
 }
