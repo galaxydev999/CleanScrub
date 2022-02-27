@@ -311,7 +311,7 @@ footer {
     background: linear-gradient(white, white) padding-box,
         linear-gradient(to bottom, #39c267, #0181f8) border-box;
     border-color: transparent;
-    font-family: 'Lato', sans-serif; 
+    font-family: 'Lato', sans-serif;
     margin-top: 40px;
     text-decoration: none;
     color: black;
@@ -323,10 +323,19 @@ footer {
 
 }
 
-.sbi{
+.sbi {
     width: 50%;
 
 }
+
+#mre{
+    display: none;
+}
+
+.more{
+    display: none;
+}
+
 
 .git a {
     color: #39c267;
@@ -336,10 +345,125 @@ footer {
     border-radius: 50px;
 }
 
-li{
+li {
     color: #0181f8;
     font-size: 20px;
     padding: 20px;
     margin: auto;
     width: 70%;
+}
+
+@media (max-width: 1100px) {
+
+    #mre{
+        display: none;
+    }
+
+    #ex{
+        display: none;
+    }
+
+    .more{
+        display: none;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    header{
+        height: 60vh;
+    }
+
+    header h1{
+        font-size: 40px;
+    }
+
+    header p{
+        font-size: 20px;
+    }
+
+    nav img {
+        display: none;
+    }
+
+    nav {
+        width: 100%;
+        padding-top: 30px;
+        flex-direction: row;
+        
+    }
+
+    .aboutus p {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    nav a{
+        padding: 10px;
+    }
+
+    .box {
+        margin: 10px;
+
+    }
+
+    .aboutus h1{
+        font-size: 50px;
+    }
+
+    .aboustus{
+        height: max-content;
+    }
+
+    .aboutus a{
+        color: whitesmoke;
+        text-decoration: underline;
+    }
+
+    .servicesinner {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .services {
+        height: max-content;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    input,
+    textarea {
+        resize: none;
+        width: 90%;
+        height: 90px;
+        padding: 10px;
+        border-radius: 3px;
+        border-width: 5px;
+        box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.342);
+        border-style: solid;
+        background: linear-gradient(white, white) padding-box,
+            linear-gradient(to bottom, #39c267, #0181f8) border-box;
+        border-color: transparent;
+    }
+
+    textarea{
+        height: 400px;
+    }
+
+}
+
+@media (max-width:400px){
+    nav{
+        flex-direction: column;
+    }
 }
