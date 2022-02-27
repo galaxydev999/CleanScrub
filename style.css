@@ -41,6 +41,7 @@ img {
 
 header {
     background-image: url(5594016.jpg);
+    background-size: cover;
     background-attachment: fixed;
     height: 120vh;
 
@@ -374,7 +375,7 @@ li {
     }
 
     header{
-        height: 60vh;
+        height: 190vh;
     }
 
     header h1{
