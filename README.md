@@ -7,7 +7,7 @@ Download this as a ZIP file
 
 Unzip the file
 
-Upload the unzpped fild to https://app.netlify.com/drop
+Upload the unzipped file to https://app.netlify.com/drop
 
 Connect your domain through netlify
 
