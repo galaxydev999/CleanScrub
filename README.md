@@ -14,3 +14,6 @@ Connect your domain through netlify
 Your website is fully functioning!
 
 (contact submissions appear in the forms tab on netlify)
+
+If you have any questions please message me on fiverr
+
