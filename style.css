@@ -245,7 +245,7 @@ header p {
 }
 
 .contact {
-    background: linear-gradient(45deg, #2e01f8, #40c239);
+    background: #4781b3;
     height: max-content;
     padding: 30px;
 }
@@ -432,12 +432,12 @@ li {
     }
 
 
-    .socials{
+    .socials {
         height: max-content;
         flex-direction: column;
     }
 
-    .sb{
+    .sb {
         margin: 30px;
         height: 100px;
     }
