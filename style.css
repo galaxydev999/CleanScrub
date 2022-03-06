@@ -229,6 +229,18 @@ header p {
     align-items: center;
 }
 
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 15%;
+    margin: 20px;
+}
+
+.icons img{
+    display: inline-block;
+    height: 40px;
+}
+
 .box {
     width: 270px;
     height: 270px;
