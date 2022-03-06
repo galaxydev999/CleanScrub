@@ -521,7 +521,7 @@ li {
     textarea {
         resize: none;
         width: 90%;
-        height: 90px;
+        height: 60px;
         padding: 10px;
         border-radius: 3px;
         border-width: 5px;
@@ -535,7 +535,7 @@ li {
     }
 
     textarea {
-        height: 400px;
+        height: 200px;
     }
 
     .ServiceBox {
