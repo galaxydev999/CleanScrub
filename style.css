@@ -50,21 +50,35 @@ body {
 
     display: flex;
     width: 50%;
-    height: 20vh;
     justify-content: space-around;
     margin: auto;
+}
+
+.sbi img {
+    width: 25%;
+    margin: 30px;
+    border-radius: 30px;
+    border-width: 6px;
+    border-style: solid;
+    background: linear-gradient(white, white) padding-box,
+        linear-gradient(to bottom, #40c239, #2e01f8) border-box;
+    border-color: transparent;
+}
+
+#main{
+    width: 50%;
 }
 
 .sb {}
 
 .socials a {
     display: inline-block;
-
-}
-
-.socials img {
     height: 50%;
+
+
 }
+
+.socials img {}
 
 header {
     background-image: url(5594016.jpg);
@@ -437,7 +451,8 @@ li {
         flex-direction: column;
     }
 
-    .sb {
+    .socials a {
+        display: inline-block;
         margin: 30px;
         height: 100px;
     }
@@ -521,8 +536,25 @@ li {
         width: 90%;
     }
 
+    .sbi img {
+        width: 80%;
+    }
+
     .socials {
         width: 90%;
+    }
+
+    #main{
+        margin: auto;
+        width: 90%;
+    }
+
+    .ul{
+        width: 100%;
+    }
+
+    li{
+        width: 100%;
     }
 
 }
