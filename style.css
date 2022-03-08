@@ -333,6 +333,7 @@ footer {
 }
 
 .ServiceBox {
+        font-family: 'Lato', sans-serif;
 
     display: flex;
     flex-direction: column;
@@ -346,14 +347,14 @@ footer {
 }
 
 .ServiceBox h1 {
-    color: #40c239;
+    color: black;
     padding-top: 40px;
     font-size: 50px;
     padding-bottom: 40px;
 }
 
 .ServiceBox p {
-    color: #2e01f8;
+    color: black;
     margin-top: 35px;
     margin-bottom: 35px;
     font-size: 20px;
